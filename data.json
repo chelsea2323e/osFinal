@@ -1,0 +1,571 @@
+{
+  "users": [
+    {
+      "id": "0f972def-3f9f-4910-b0a3-6c4b39e8ba50",
+      "email": "guard@cvsu.edu.ph",
+      "role": "Guard",
+      "name": "Main Guard",
+      "passwordHash": "$2a$10$/NbW5e7MkqGgnXko6yTN2uW65hH8jtr9/UIr9RGYpyDihb5Ijc/n6",
+      "tempPassword": false,
+      "createdAt": "2026-11-19T05:37:23.775Z"
+    },
+    {
+      "id": "aab98252-3f9c-4973-b6e6-7aa3dab8ea84",
+      "email": "rickytepora@cvsu.edu.ph",
+      "role": "Professor",
+      "name": "Ricky Tepora",
+      "passwordHash": "$2a$10$rd/jcp5NKMJeeuODufUWkeYHsTCQtqfmc/E.CluEb55H.Lbz6EL1i",
+      "tempPassword": false,
+      "createdAt": "2026-11-19T06:09:38.340Z",
+      "createdBy": "guard@cvsu.edu.ph"
+    },
+    {
+      "id": "988692d5-ce1b-4bb6-8227-26af0c6ecde4",
+      "email": "zacyray@cvsu.edu.ph",
+      "role": "Professor",
+      "name": "Zac yray",
+      "passwordHash": "$2a$10$UMvsMK/pscWSwjReBbxcSOMHPQ1k1DeMwEPXexWor7mDq1pYpCATy",
+      "tempPassword": false,
+      "createdAt": "2026-11-19T07:10:12.684Z",
+      "createdBy": "guard@cvsu.edu.ph",
+      "mobile": "09456179617"
+    }
+  ],
+  "requests": [
+    {
+      "id": "c2892018-a5e1-40b8-9939-312746ec2a7e",
+      "requesterId": "aab98252-3f9c-4973-b6e6-7aa3dab8ea84",
+      "requester": "rickytepora@cvsu.edu.ph",
+      "role": "Professor",
+      "roomId": "NEW-201",
+      "neededAt": "14:16",
+      "reason": "class",
+      "status": "completed",
+      "createdAt": "2026-11-19T06:16:24.105Z",
+      "handledBy": "guard@cvsu.edu.ph",
+      "handledAt": "2026-11-19T06:16:33.400Z",
+      "proofFile": "c2892018-a5e1-40b8-9939-312746ec2a7e.jpg",
+      "completedBy": "guard@cvsu.edu.ph",
+      "completedAt": "2026-11-19T06:16:52.623Z"
+    },
+    {
+      "id": "7953c16d-4ab3-4458-8adc-a321816ab140",
+      "requesterId": "aab98252-3f9c-4973-b6e6-7aa3dab8ea84",
+      "requester": "rickytepora@cvsu.edu.ph",
+      "role": "Professor",
+      "roomId": "NEW-205",
+      "neededAt": "14:17",
+      "reason": "class",
+      "status": "denied",
+      "createdAt": "2026-11-19T06:17:09.800Z",
+      "handledBy": "guard@cvsu.edu.ph",
+      "handledAt": "2026-11-19T06:17:23.721Z"
+    },
+    {
+      "id": "6289f328-c9c4-440b-aace-8aa1e55ad98c",
+      "requesterId": "aab98252-3f9c-4973-b6e6-7aa3dab8ea84",
+      "requester": "rickytepora@cvsu.edu.ph",
+      "role": "Professor",
+      "roomId": "NEW-201",
+      "neededAt": "14:27",
+      "reason": "c",
+      "status": "denied",
+      "createdAt": "2026-11-19T06:28:30.832Z",
+      "denyReason": "sira aircon",
+      "handledBy": "guard@cvsu.edu.ph",
+      "handledAt": "2026-11-19T06:28:47.840Z"
+    },
+    {
+      "id": "314bae70-b5f1-4100-98fe-aa9171898cbb",
+      "requesterId": "aab98252-3f9c-4973-b6e6-7aa3dab8ea84",
+      "requester": "rickytepora@cvsu.edu.ph",
+      "role": "Professor",
+      "roomId": "NEW-201",
+      "neededAt": "14:44",
+      "reason": "z",
+      "status": "approved",
+      "createdAt": "2026-11-19T06:44:46.656Z",
+      "handledBy": "guard@cvsu.edu.ph",
+      "handledAt": "2026-11-19T06:45:13.712Z"
+    },
+    {
+      "id": "149da1d9-0bef-4e17-b995-9f93f84e6c52",
+      "requesterId": "aab98252-3f9c-4973-b6e6-7aa3dab8ea84",
+      "requester": "rickytepora@cvsu.edu.ph",
+      "role": "Professor",
+      "roomId": "NEW-201",
+      "neededAt": "14:53",
+      "startAt": "2026-11-19T06:53:00.000Z",
+      "endAt": "2026-11-19T09:53:00.000Z",
+      "durationMin": 180,
+      "reason": "a",
+      "status": "approved",
+      "createdAt": "2026-11-19T06:53:25.456Z",
+      "handledBy": "guard@cvsu.edu.ph",
+      "handledAt": "2026-11-19T06:53:31.224Z",
+      "releasedAt": "2026-11-23T02:13:16.120Z"
+    },
+    {
+      "id": "d6f92344-f8aa-433f-8430-b0b10c03841a",
+      "requesterId": "988692d5-ce1b-4bb6-8227-26af0c6ecde4",
+      "requester": "zacyray@cvsu.edu.ph",
+      "role": "Professor",
+      "roomId": "NEW-302",
+      "neededAt": "15:37",
+      "startAt": "2026-11-19T07:37:00.000Z",
+      "endAt": "2026-11-19T08:37:00.000Z",
+      "durationMin": 60,
+      "reason": "c",
+      "status": "expired",
+      "createdAt": "2026-11-19T07:37:29.648Z",
+      "expiredAt": "2026-11-19T08:37:00.778Z"
+    },
+    {
+      "id": "8db435ce-f87c-4b43-915b-c61af4cdabb6",
+      "requesterId": "988692d5-ce1b-4bb6-8227-26af0c6ecde4",
+      "requester": "zacyray@cvsu.edu.ph",
+      "role": "Professor",
+      "roomId": "NEW-205",
+      "neededAt": "As soon as possible",
+      "startAt": "2026-11-19T07:59:09.576Z",
+      "endAt": "2026-11-19T08:59:09.576Z",
+      "durationMin": 60,
+      "reason": "class",
+      "status": "denied",
+      "createdAt": "2026-11-19T07:59:09.577Z",
+      "denyReason": "a",
+      "handledBy": "guard@cvsu.edu.ph",
+      "handledAt": "2026-11-19T08:27:23.110Z"
+    },
+    {
+      "id": "17dbfe9e-d8ea-4a88-ae0f-f068559cc8c1",
+      "requesterId": "988692d5-ce1b-4bb6-8227-26af0c6ecde4",
+      "requester": "zacyray@cvsu.edu.ph",
+      "role": "Professor",
+      "roomId": "NEW-502",
+      "neededAt": "As soon as possible",
+      "startAt": "2026-11-19T07:59:28.470Z",
+      "endAt": "2026-11-19T08:59:28.470Z",
+      "durationMin": 60,
+      "reason": "c",
+      "status": "approved",
+      "createdAt": "2026-11-19T07:59:28.471Z",
+      "handledBy": "guard@cvsu.edu.ph",
+      "handledAt": "2026-11-19T08:00:58.999Z",
+      "releasedAt": "2026-11-23T02:13:16.120Z"
+    },
+    {
+      "id": "87ee1054-9115-4c54-aefb-d39684f8dda5",
+      "requesterId": "988692d5-ce1b-4bb6-8227-26af0c6ecde4",
+      "requester": "zacyray@cvsu.edu.ph",
+      "role": "Professor",
+      "roomId": "NEW-503",
+      "neededAt": "16:23",
+      "startAt": "2026-11-19T08:23:00.000Z",
+      "endAt": "2026-11-19T09:53:00.000Z",
+      "durationMin": 90,
+      "reason": "c",
+      "status": "approved",
+      "createdAt": "2026-11-19T08:23:17.535Z",
+      "handledBy": "guard@cvsu.edu.ph",
+      "handledAt": "2026-11-19T08:27:14.313Z",
+      "releasedAt": "2026-11-23T02:13:16.120Z"
+    },
+    {
+      "id": "7f99362f-bf52-4977-a1fc-a503eaa0888d",
+      "requesterId": "988692d5-ce1b-4bb6-8227-26af0c6ecde4",
+      "requester": "zacyray@cvsu.edu.ph",
+      "role": "Professor",
+      "roomId": "OLD-RM5",
+      "neededAt": "16:30",
+      "startAt": "2026-11-19T08:30:00.000Z",
+      "endAt": "2026-11-19T09:30:00.000Z",
+      "durationMin": 60,
+      "reason": "v",
+      "status": "expired",
+      "createdAt": "2026-11-19T08:27:33.694Z",
+      "expiredAt": "2026-11-23T02:13:16.118Z"
+    },
+    {
+      "id": "4174f592-baf4-4069-9314-6ac0f7d3b02c",
+      "requesterId": "aab98252-3f9c-4973-b6e6-7aa3dab8ea84",
+      "requester": "rickytepora@cvsu.edu.ph",
+      "role": "Professor",
+      "roomId": "NEW-201",
+      "neededAt": "16:29",
+      "startAt": "2026-11-24T08:29:00.000Z",
+      "endAt": "2026-11-24T09:29:00.000Z",
+      "durationMin": 60,
+      "reason": "w",
+      "status": "pending",
+      "createdAt": "2026-11-24T07:30:01.683Z"
+    },
+    {
+      "id": "618fee16-9011-4f9a-b3c9-9c7c7a965ed6",
+      "requesterId": "aab98252-3f9c-4973-b6e6-7aa3dab8ea84",
+      "requester": "rickytepora@cvsu.edu.ph",
+      "role": "Professor",
+      "roomId": "NEW-305",
+      "neededAt": "16:38",
+      "startAt": "2026-11-24T08:38:00.000Z",
+      "endAt": "2026-11-24T09:38:00.000Z",
+      "durationMin": 60,
+      "reason": "r",
+      "status": "approved",
+      "createdAt": "2026-11-24T07:38:44.248Z",
+      "handledBy": "guard@cvsu.edu.ph",
+      "handledAt": "2026-11-24T07:42:29.011Z"
+    },
+    {
+      "id": "973aef72-0196-4bbf-afaf-9eece4087f65",
+      "requesterId": "aab98252-3f9c-4973-b6e6-7aa3dab8ea84",
+      "requester": "rickytepora@cvsu.edu.ph",
+      "role": "Professor",
+      "roomId": "OLD-101",
+      "neededAt": "15:42",
+      "startAt": "2026-11-24T07:42:00.000Z",
+      "endAt": "2026-11-24T08:42:00.000Z",
+      "durationMin": 60,
+      "reason": "e",
+      "status": "pending",
+      "createdAt": "2026-11-24T07:39:08.621Z"
+    }
+  ],
+  "campus": {
+    "seed": "v3",
+    "mpp": 0.4,
+    "buildings": [
+      {
+        "id": "NEW",
+        "name": "New Building",
+        "x": 418,
+        "y": 402
+      },
+      {
+        "id": "COURT",
+        "name": "Court",
+        "x": 498,
+        "y": 430
+      },
+      {
+        "id": "OLD",
+        "name": "Old Building",
+        "x": 548,
+        "y": 440
+      },
+      {
+        "id": "D",
+        "name": "Building D",
+        "x": 808,
+        "y": 452
+      },
+      {
+        "id": "E",
+        "name": "Building E",
+        "x": 703,
+        "y": 668
+      }
+    ],
+    "rooms": [
+      {
+        "id": "NEW-201",
+        "buildingId": "NEW",
+        "label": "Room 201",
+        "floor": 2
+      },
+      {
+        "id": "NEW-202",
+        "buildingId": "NEW",
+        "label": "Room 202",
+        "floor": 2
+      },
+      {
+        "id": "NEW-203",
+        "buildingId": "NEW",
+        "label": "Room 203",
+        "floor": 2
+      },
+      {
+        "id": "NEW-204",
+        "buildingId": "NEW",
+        "label": "Room 204",
+        "floor": 2
+      },
+      {
+        "id": "NEW-205",
+        "buildingId": "NEW",
+        "label": "Room 205",
+        "floor": 2
+      },
+      {
+        "id": "NEW-301",
+        "buildingId": "NEW",
+        "label": "Room 301",
+        "floor": 3
+      },
+      {
+        "id": "NEW-302",
+        "buildingId": "NEW",
+        "label": "Room 302",
+        "floor": 3
+      },
+      {
+        "id": "NEW-303",
+        "buildingId": "NEW",
+        "label": "Room 303",
+        "floor": 3
+      },
+      {
+        "id": "NEW-304",
+        "buildingId": "NEW",
+        "label": "Room 304",
+        "floor": 3
+      },
+      {
+        "id": "NEW-305",
+        "buildingId": "NEW",
+        "label": "Room 305",
+        "floor": 3
+      },
+      {
+        "id": "NEW-401",
+        "buildingId": "NEW",
+        "label": "Room 401",
+        "floor": 4
+      },
+      {
+        "id": "NEW-402",
+        "buildingId": "NEW",
+        "label": "Room 402",
+        "floor": 4
+      },
+      {
+        "id": "NEW-403",
+        "buildingId": "NEW",
+        "label": "Room 403",
+        "floor": 4
+      },
+      {
+        "id": "NEW-404",
+        "buildingId": "NEW",
+        "label": "Room 404",
+        "floor": 4
+      },
+      {
+        "id": "NEW-405",
+        "buildingId": "NEW",
+        "label": "Room 405",
+        "floor": 4
+      },
+      {
+        "id": "NEW-501",
+        "buildingId": "NEW",
+        "label": "Room 501",
+        "floor": 5
+      },
+      {
+        "id": "NEW-502",
+        "buildingId": "NEW",
+        "label": "Room 502",
+        "floor": 5
+      },
+      {
+        "id": "NEW-503",
+        "buildingId": "NEW",
+        "label": "Room 503",
+        "floor": 5
+      },
+      {
+        "id": "NEW-504",
+        "buildingId": "NEW",
+        "label": "Room 504",
+        "floor": 5
+      },
+      {
+        "id": "NEW-505",
+        "buildingId": "NEW",
+        "label": "Room 505",
+        "floor": 5
+      },
+      {
+        "id": "COURT-COURT",
+        "buildingId": "COURT",
+        "label": "Court",
+        "floor": 1
+      },
+      {
+        "id": "OLD-112",
+        "buildingId": "OLD",
+        "label": "Room 112",
+        "floor": 1
+      },
+      {
+        "id": "OLD-113",
+        "buildingId": "OLD",
+        "label": "Room 113",
+        "floor": 1
+      },
+      {
+        "id": "OLD-114",
+        "buildingId": "OLD",
+        "label": "Room 114",
+        "floor": 1
+      },
+      {
+        "id": "OLD-115",
+        "buildingId": "OLD",
+        "label": "Room 115",
+        "floor": 1
+      },
+      {
+        "id": "OLD-116",
+        "buildingId": "OLD",
+        "label": "Room 116",
+        "floor": 1
+      },
+      {
+        "id": "OLD-117",
+        "buildingId": "OLD",
+        "label": "Room 117",
+        "floor": 1
+      },
+      {
+        "id": "OLD-118",
+        "buildingId": "OLD",
+        "label": "Room 118",
+        "floor": 1
+      },
+      {
+        "id": "OLD-119",
+        "buildingId": "OLD",
+        "label": "Room 119",
+        "floor": 1
+      },
+      {
+        "id": "OLD-105",
+        "buildingId": "OLD",
+        "label": "Room 105",
+        "floor": 1
+      },
+      {
+        "id": "OLD-106",
+        "buildingId": "OLD",
+        "label": "Room 106",
+        "floor": 1
+      },
+      {
+        "id": "OLD-107",
+        "buildingId": "OLD",
+        "label": "Room 107",
+        "floor": 1
+      },
+      {
+        "id": "OLD-120",
+        "buildingId": "OLD",
+        "label": "Room 120",
+        "floor": 1
+      },
+      {
+        "id": "OLD-121",
+        "buildingId": "OLD",
+        "label": "Room 121",
+        "floor": 1
+      },
+      {
+        "id": "OLD-122",
+        "buildingId": "OLD",
+        "label": "Room 122",
+        "floor": 1
+      },
+      {
+        "id": "OLD-101",
+        "buildingId": "OLD",
+        "label": "Room 101",
+        "floor": 1
+      },
+      {
+        "id": "OLD-CL1",
+        "buildingId": "OLD",
+        "label": "CL1",
+        "floor": 2
+      },
+      {
+        "id": "OLD-CL2",
+        "buildingId": "OLD",
+        "label": "CL2",
+        "floor": 2
+      },
+      {
+        "id": "OLD-CL3",
+        "buildingId": "OLD",
+        "label": "CL3",
+        "floor": 2
+      },
+      {
+        "id": "OLD-CL4",
+        "buildingId": "OLD",
+        "label": "CL4",
+        "floor": 2
+      },
+      {
+        "id": "OLD-RM5",
+        "buildingId": "OLD",
+        "label": "RM5",
+        "floor": 2
+      },
+      {
+        "id": "OLD-RM6",
+        "buildingId": "OLD",
+        "label": "RM6",
+        "floor": 2
+      },
+      {
+        "id": "OLD-RM7",
+        "buildingId": "OLD",
+        "label": "RM7",
+        "floor": 2
+      },
+      {
+        "id": "OLD-RM8",
+        "buildingId": "OLD",
+        "label": "RM8",
+        "floor": 2
+      },
+      {
+        "id": "OLD-102",
+        "buildingId": "OLD",
+        "label": "Room 102",
+        "floor": 1,
+        "archived": true
+      },
+      {
+        "id": "OLD-103",
+        "buildingId": "OLD",
+        "label": "Room 103",
+        "floor": 1,
+        "archived": true
+      },
+      {
+        "id": "OLD-104",
+        "buildingId": "OLD",
+        "label": "Room 104",
+        "floor": 1,
+        "archived": true
+      },
+      {
+        "id": "OLD-110",
+        "buildingId": "OLD",
+        "label": "Room 110",
+        "floor": 1,
+        "archived": true
+      },
+      {
+        "id": "OLD-FUNCTION-HALL",
+        "buildingId": "OLD",
+        "label": "Function Hall",
+        "floor": 1,
+        "archived": true
+      }
+    ]
+  }
+}

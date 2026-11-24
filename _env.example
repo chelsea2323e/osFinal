@@ -1,0 +1,14 @@
+PORT=3000
+# Generate a long random value, e.g.: node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+JWT_SECRET=change-me
+ALLOWED_EMAIL_DOMAIN=cvsu.edu.ph
+
+# Built-in guard account, created on first start (only if no guard exists yet).
+# If GUARD_PASSWORD is left out, the default password Guard@12345 is used and must be changed at first sign-in.
+GUARD_EMAIL=guard@cvsu.edu.ph
+GUARD_PASSWORD=
+
+# Where data.json and proof photos are stored. Point this at a persistent disk/volume on hosts
+# (Render, Railway, Heroku, etc.) that wipe the app folder on restart, e.g. DATA_DIR=/var/data
+# Leave empty to use the app folder (fine for running on your own computer).
+DATA_DIR=
